@@ -1,4 +1,4 @@
-def threeSum2(nums: list[int]) -> list[list[int]]:
+def threeSum(nums: list[int]) -> list[list[int]]:
     nums.sort()  # sort to handle duplicates and two sum problem
     res = []  # list of triples to be returned
     n = len(nums)
