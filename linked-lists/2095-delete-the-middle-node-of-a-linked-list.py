@@ -9,9 +9,9 @@ class Solution:
         prev, slow, fast = dummy, head, head  # previous of middle node, middle node, end of list
 
         while fast and fast.next:
-            fast = fast.next.next
-            slow = slow.next
-            prev = prev.next
+            fast = fast.next.next  # increment two steps
+            slow = slow.next  # increment one step
+            prev = prev.next  
 
         prev.next = slow.next  # when fast hits end (either last node or null) slow becomes middle node
         
