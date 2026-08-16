@@ -4,6 +4,7 @@
 #         self.val = val
 #         self.next = next
 class Solution:
+    # Monotonic Stack solution
     def nextLargerNodes(self, head: Optional[ListNode]) -> List[int]:
         res = []  # result to be returned
         stack = []  # monotonically decreasing stack
