@@ -1,4 +1,6 @@
 class Solution:
+    # time complexity: O(n)
+    # space complexity: O(n)
     def simplifyPath(self, path: str) -> str:
         stack = []  # stack for undo operations (..)
 
