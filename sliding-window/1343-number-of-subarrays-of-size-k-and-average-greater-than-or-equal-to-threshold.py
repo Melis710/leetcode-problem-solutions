@@ -1,4 +1,7 @@
 class Solution:
+    # fixed size sliding window
+    # time complexity: O(n)
+    # space complexity: O(1)
     def numOfSubarrays(self, arr: list[int], k: int, threshold: int) -> int:
         # instead of calculating division by k every step
         target_sum = k*threshold  # calculate sum over a window and compare that to this
