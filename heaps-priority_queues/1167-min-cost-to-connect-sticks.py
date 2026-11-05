@@ -20,3 +20,4 @@ def minCostToConnectSticks(sticks: list) -> int:
     return total_cost
 
 print(minCostToConnectSticks([5]))
+# if the input list was given already in sorted order, it would be possible to solve in O(N) time using two Queues 
